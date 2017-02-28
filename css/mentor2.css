@@ -1,0 +1,77 @@
+#input_container { position:relative; padding:0; margin-top:300px; margin-left: 280px;}
+
+#input1 { height:70px; margin:0; padding-left: 60px; width: 250px;border-top-left-radius: 40px;border-bottom-left-radius: 40px;float: left;font-style:Helvetica; color:#333333;font-size: 32pt;}
+#input2 { height:70px;  padding-left: 60px;width: 250px; float: left;font-style:Helvetica; color:#333333;font-size: 32pt;}
+
+#input3 { height:76px; margin:0; padding-left: 30px;width: 250px;border-top-right-radius: 40px;border-bottom-right-radius: 40px; background-color: red;color: white;font-weight: bold;font-style:Helvetica; color:#FFFFFF;font-size: 40pt; }
+
+#input_img1 { position:absolute; left:10px; width:40px; height:40px; float: left; padding-top: 18px;}
+#input_img2 { position:absolute; left:320px; width:40px; height:40px;  padding-top: 18px; }
+
+#id{
+ margin-left: 260px;
+ margin-top: 51px;
+ height: 30px;
+ width: 50px;
+}
+
+h4{
+ display: inline;
+ margin-left: 81px;
+ font-weight: normal;
+}
+
+body{
+	background-image: url("../images/globe1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+footer img{
+
+   margin-left: 200px;
+   margin-top: 200px;
+}
+
+section{
+	margin-top: 98px;
+	margin-left: 190px;
+	
+}
+div{
+	line-height: 10px;
+
+}
+
+#remember_span{
+font-style:Helvetica; color:#333333;font-size: 32pt;
+}
+
+#forgot_span{
+font-style:Helvetica ; color:#333333;font-size: 32pt;
+}
+#mentor_span{
+font-style:Helvetica; color:#000000;font-size: 172.21pt;
+}
+
+#mentee_span{
+font-style:Helvetica; color:#FFFFFF;font-size: 150.09pt;  color:white;
+}
+
+#sapient_span{
+color:white; font-size:40px;
+}
+
+#nitro_span{
+color:black; font-size:40px;
+}
+
+#mentor_img{
+border-radius: 100%;
+width: 130px;
+height: 130px ;
+}
+#logo{
+width:30px;
+ height:30px;
+}
