@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="css/mentor2.css">
+	<link rel="icon" href="images/logo.png">
+</head>
+
+<body>
+	
+	<section>
+    <form>
+	       <div id="input_container">
+
+           <input type="text" id="username" placeholder="Username" required="required"><input type="password" id="password"  placeholder="Password" required="required"><input type="submit" id="login" value="Login">
+
+           <img src="images/username.jpg" id="input_img1">
+
+           <img src="images/password.png" id="input_img2">
+
+       
+   
+          </div>
+     </form>
+
+          <div id="division2">
+          <input type="checkbox" id="remember_checkbox"><span id="remember_span"> Remember Me</span>
+	      <h4><a href="#"><span id="forgot_span" >Forgot Password?</span></a></h4>
+	      </div>
+
+          <h4><span id="mentor_span" >ment<img id="mentor_img" src="images/tree.jpg" >r</span></h4>
+
+          <div><h4><span id="mentee_span" >mentee</span><h4></div>
+    </section>
+
+    <footer>
+         <img id="logo" src="images/logo.png" id="im" ><span id="sapient_span">Sapient</span><span id="nitro_span">Nitro</span>	
+    </footer>
+
+
+ 	<!-- FORGOT PASSWORD POP-UP -->
+    <section id="emailPopup" >
+
+		<form class="email-form" id="emailForm">
+		<span class="close-popup" id="closepopUp"><label>X</label></span>
+		<div id="popupDiv" class="popupDiv">
+		<label class="enter-email">Enter UserName:</label>
+		<input type="text" required="required" id="forgot_username" value="" placeholder="User Name"><input type="submit" class="emailDone" id="emailDone" value="Done">
+    		<div id="errorMessage" ></div>
+    		</div>
+    		<div id="success-msg">
+    		<div class="enter-email">Email has been sent to:</div>
+    		<div id="emailId"></div><br/>
+    		<span class="close-popup"><label id="ok-button">OK</label></span>
+    		</div>
+			
+		</form>
+    	   
+	</section>
+		
+	
+	<script src="js/login.js">
+	</script>
+</body>
+</html>
