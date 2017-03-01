@@ -1,14 +1,16 @@
-#input_container { position:relative; padding:0; margin-top:300px; margin-left: 280px;}
+#input_container { position:relative; padding:0; margin-top:300px; margin-left: 280px; display: flex;}
 
 #username 
 {
+   color:#333333;
    height:132px;
-   margin:0; padding-left:
-   80px; width: 487px;
+   margin:0; 
+   padding-left:80px;
+   width: 487px;
    border-top-left-radius: 60px;
    border-bottom-left-radius: 60px;
    font-family: "HelveticaNeue";
-   color:#333333;
+  
    font-size: 32pt;
 }
 #password 
@@ -26,7 +28,7 @@
  { height:135px;
    
   padding-left:30px;
-  width: 487px;
+  width: 200px;
   border-top-right-radius: 60px;
   border-bottom-right-radius: 60px;
   background-color: red;
