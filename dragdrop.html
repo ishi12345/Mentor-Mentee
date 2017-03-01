@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Superuser Dashboard</title>
+	<link rel="stylesheet" href="dragdrop1.css">
+	<script type="text/javascript" src="dragdrop.js">
+
+	</script>
+</head>
+<body>
+	<header>
+	</header>
+
+<section>
+
+	<div id="top">
+
+		<img id="sapientlogo" src="images/logo.png" alt="Sapient">
+
+		<input  id="search" type="search" name="" placeholder="Search..">
+		
+		<div id="logoutcontainer">
+
+			<img id="usericon" src="images/profilepicture.png" alt="ProfilePicture">
+		
+			<p id="logoutusername">Username</p>
+		
+			<select id="logoutdropdown" style="background-image:url(images/dropdown.png);">
+				<option value="logout"></option>
+				<option value="logout">Edit Profile</option>
+				<option value="logout">logout</option>
+			</select>
+		</div>
+		
+	</div>
+		
+
+	<div id="main">
+	
+		
+		<div id="profile">
+		
+			<img id="profilepicture" src="images/profilepicture.png" alt="">
+
+			<p id="Username">Kimberley Claeys</p>
+			<dl  id="contentlabel">
+			    <dt>User Type: <span id="usertype">Super User</span></dt>
+			    <dt>Emp Id: <span id="empid">127444</span></dt>
+			    <dt>BU: <span id="bu">Bangalore</span></dt>
+			    <dt>Role: <span id="role">vp</span></dt>
+			    <dt>Unit: <span id="unit">Project Management</span></dt>
+			</dl>
+		
+		</div>
+
+		<div id="supervisorlist">
+
+			<p id="headinglabel"><span class="manage">Manage</span> Supervisor List</p>
+				<p class="allsupervisor"><img id="supervisor01" src="images/profilepicture.png" alt="supervisor01">Supervisor 01</p>
+				<p class="allsupervisor"><img id="supervisor02" src="images/profilepicture.png" alt="supervisor02">Supervisor 02</p>
+				<p class="allsupervisor"><img id="supervisor03" src="images/profilepicture.png" alt="supervisor03">Supervisor 03</p>
+				<p class="allsupervisor"><img id="supervisor04" src="images/profilepicture.png" alt="supervisor04">Supervisor 04</p>
+				<p class="allsupervisor"><img id="supervisor05" src="images/profilepicture.png" alt="supervisor05">Supervisor 05</p>
+				
+				<div id="test"><img src="images/profilepicture.png" id="testImg"> <p>Hello <span class="manage">ID=123 
+				</span></p> </div>	
+
+			<button  class="addsupervisor" type="addsupervisor">+ Add Supervisor</button>
+	
+
+		</div>
+
+		<div id="superviseelist">
+
+			<p id="headinglabel"><span class="manage">Username's </span>Supervisee list</p>
+
+			<input id="delete" type="image" src="images/delete.jpg" alt="delete">
+
+			<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  	<div><img src="Pastries.jpg" draggable="true" ondragstart="drag(event)" id="drag1" height="40px" width="40px"></div>
+	</div>
+	<div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">
+	</div>
+	<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+	</div>
+	<div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)">
+	</div>
+	<div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)">
+	</div>
+	<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+	</div>
+		
+	
+		</div>
+
+
+	</div>
+	
+</section>
+
+
+</body>
+</html>

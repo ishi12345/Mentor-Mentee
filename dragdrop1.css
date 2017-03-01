@@ -1,0 +1,222 @@
+#main{
+
+	width: 80%;
+ 	/* margin-left: 350px; */
+ 	
+ 	margin: auto;
+ 	/* height: 700px; */
+
+}
+#profile{
+	
+	width: 20%;
+	flex-direction: column;
+	background: linear-gradient(rgb(83,83,83), rgb(41,41,41));
+	border-top-left-radius: 2em;
+  
+}
+
+#supervisorlist{
+	width: 40%;
+	background-color: #333333;
+	flex-direction: column;
+
+}
+
+#superviseelist{
+	width: 40%;
+	background-color: #414141;
+	flex-direction: column;
+	flex-wrap: wrap;
+	text-wrap: normal;
+  
+}
+
+#div1, #div5, #div6 {
+    	float: left;
+    	width: 100px;
+    	height: 35px;
+    	margin: 10px;
+    	padding: 10px;
+    	border: 1px solid black;
+    	clear: both;
+	}
+
+	#div3, #div2, #div4 {
+    	float: left;
+    	width: 100px;
+    	height: 35px;
+    	margin: 10px;
+    	padding: 10px;
+    	border: 1px solid black;
+	}
+
+	
+div{
+	display: flex;
+	
+
+}
+
+
+
+#headinglabel{
+  font-size: 28px;
+  font-family: HelveticaNeue, sans-serif;
+  color: #9D9D9D;
+  line-height: 1.2;
+  margin-left: 16px;
+  margin-top: 40px;
+  margin-right: -50px;
+}
+#profilepicture{
+
+  width: 100%;
+  height: 250px;
+  
+}
+#Username{
+	
+	color: #B6B6B6;
+	font-family: HelveticaNeue, sans-serif;
+	font-size: 15pt;
+	padding-left: 20px;
+
+}
+
+#contentlabel{
+  font-size: 15px;
+  
+   color: #BCBCBC;
+   font-family: Helvetica,sans-serif;/*specification*/
+   padding-left: 20px;
+}
+#delete{
+	margin-top: 55px;
+	position:relative;
+	left: 30px;
+	height: 10px;
+	width: 10px;
+}
+
+#sapientlogo{
+	width: 13%;
+	border-top-left-radius: 2em;
+}
+
+
+#search{
+	/* height: 70px; */
+	flex-grow: 2;
+}
+#usericon{
+	height: 51px;
+	border: solid white;
+	border-radius: 25px;
+	display: inline-block;
+	position: relative;
+	top: 7px;
+}
+#logoutdropdown{
+	height: 14px;
+	margin-top: 10px;
+	width: 23px;
+	background: url('images/dropdown.png');
+	background-size: contain;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+	display: inline-block;
+	margin-right: 20px;
+	background-repeat: no-repeat;
+	border: none;
+	
+}
+
+
+
+
+#top{
+	margin: auto;
+	width: 80%;
+	justify-content: space-between;
+	/* margin-left: 350px; */
+	
+}
+.addsupervisor{
+	
+	height: 68px;
+	width: 200px;
+	background-color: #D32728;
+	border: solid black;
+	border-radius: 2em; 
+	color: #FDF4F4;
+	font-size: 18pt;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.manage{
+	display: block;
+}
+#logoutcontainer{
+	flex-grow: 2;
+	display: block;
+	text-align: right;
+	/* height: 70px; */
+	background-color: #E3E3E3;
+	border-top-right-radius: 2em;
+}
+#logoutusername{
+	display: inline-block;
+	position: relative;
+	bottom: 20px;
+	font-size: 12pt;	/* specification */
+	font-family: "Helvetica", "sans-serif";
+	color: #333333;
+	/* padding-top: 10px; */
+}
+#logoutusername,#logoutdropdown{
+	position: relative;
+	bottom: 20px;
+}
+#contentlabel span{
+
+	font-size: 15px;
+  margin-top: 50px;
+   
+   color: #ffffff;
+   font-family: Helvetica,sans-serif;/*specification*/
+
+}
+
+p{
+	word-wrap: break-word;
+}
+
+#supervisorlist p img, #supervisorlist  img {
+	height: 51px;
+	border: solid white;
+	border-radius: 25px;
+	display: inline-block;
+	position: relative;
+
+	
+}
+#supervisorlist p{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.allsupervisor{
+	padding-top: 0;
+
+}
+
+#test{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#test p{
+	padding-left: 20px;
+}
+
