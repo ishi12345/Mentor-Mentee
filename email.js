@@ -20,15 +20,11 @@
 		}
 		var pwd = randomString(8, '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ');
 
-			var email = document.getElementById("emaill").value;
-
-			var name = document.getElementById("namee").value;
-
-			var id = document.getElementById("text").value;
-
-			var mail = "Your Login ID is: "+id+", and your Password is: "+pwd;
 			
-			emailjs.send("gmail","template_LqU4E6f6",{name: name ,"message_html": mail,"to_name": name, "reply_to": "rahul007psk@gmail.com","email":email, notes: "Check this out!"}).then(function(response) {
+
+			var mail = "Your Password is: "+pwd;
+			
+			emailjs.send("gmail","template_LqU4E6f6",{name: name ,"message_html": mail,"to_name": name, "reply_to": "mentormentee2k17@gmail.com","email":, notes: "Check this out!"}).then(function(response) {
    		console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
 		}, function(err) {
    			console.log("FAILED. error=", err);

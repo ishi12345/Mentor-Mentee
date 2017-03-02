@@ -6,6 +6,12 @@
 	<title></title>
 	<link rel="stylesheet" href="css/mentor2.css">
 	<link rel="icon" href="images/logo.png">
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+      emailjs.init("user_ymrKA4lfRqLKmlhJ7vbEa");
+    })();
+    </script>
 </head>
 
 <body>
@@ -50,10 +56,11 @@
 		<form class="email-form" id="emailForm">
 		<span class="close-popup" id="closepopUp"><label>X</label></span>
 		<div id="popupDiv" class="popupDiv">
-		<label class="enter-email">Enter UserName:</label>
+		<label class="enter-email">Enter UserName:</label><div id="errorMessage" ></div>
 		<input type="text" required="required" id="forgot_username" value="" placeholder="User Name"><input type="submit" class="emailDone" id="emailDone" value="Done">
-    		<div id="errorMessage" ></div>
+    		
     		</div>
+        
     		<div id="success-msg">
     		<div class="enter-email">Email has been sent to:</div>
     		<div id="emailId"></div><br/>
