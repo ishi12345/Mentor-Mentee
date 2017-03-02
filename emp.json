@@ -1,0 +1,141 @@
+{
+  "employee": [{
+
+      "id": 1,
+      "userName": "abaks5",
+      "name": "Aman Bakshi",
+      "password": "bakshi",
+      "businessUnit": "Asia Pasific",
+      "image": "url()",
+      "role": "Associate",
+      "unit": "Technology",
+      "employeeType": 0,
+      "Isasssigned": 0,
+      "supervisee": []
+    },
+
+    {
+      "id": 2,
+      "userName": "scha88",
+      "name": "Shubham Chaturvedi",
+      "password": "chaturvedi",
+      "businessUnit": "Europe",
+      "image": "url()",
+      "role": "Senior Associate",
+      "unit": "Technology",
+      "employeeType": 1,
+      "Isasssigned": 0,
+      "supervisee": []
+    },
+
+    {
+      "id": 3,
+      "userName": "asi325",
+      "name": "Aditya Sinha",
+      "password": "sinha",
+      "businessUnit": "South America",
+      "role": "Manager",
+      "unit": "Program Management",
+      "image": "url()",
+      "employeeType": 1,
+      "Isasssigned": 0,
+      "supervisee": []
+    },
+
+    {
+      "id": 4,
+      "userName": "ibra",
+      "name": "Zlatan Ibrahimovic",
+      "password": "zlatan",
+      "businessUnit": "Europe",
+      "image": "url()",
+      "role": "Vice President",
+      "unit": "Hiring",
+      "employeeType": 0,
+      "Isasssigned": 0,
+      "supervisee": []
+    }, {
+      "id": 5,
+      "userName": "asi222",
+      "name": "Aditya Sinha",
+      "password": "sinha",
+      "businessUnit": "Asia Pasific",
+      "image": "url()",
+      "role": "Associate",
+      "unit": "People Success",
+      "employeeType": 2,
+      "Isasssigned": 0,
+      "supervisee": []
+    },
+
+    {
+      "id": 6,
+      "userName": "spati13",
+      "name": "Swaroop Patil",
+      "password": "spatil",
+      "businessUnit": "Australia",
+      "role": "Junior Associate",
+      "unit": "Technology",
+      "image": "url()",
+      "employeeType": 2,
+      "Isasssigned": 0,
+      "supervisee": []
+    },
+
+    {
+      "id": 7,
+      "userName": "ipriya",
+      "name": "Ishani Priya",
+      "password": "priyaishani",
+      "businessUnit": "Eurpoe",
+      "image": "url()",
+      "role": "Senior Associate",
+      "unit": "Technology",
+      "employeeType": 1,
+      "Isasssigned": 0,
+      "supervisee": []
+    },
+
+    {
+      "id": 8,
+      "userName": "isharma",
+      "name": "Ishita Sharma",
+      "password": "sharmaishita",
+      "businessUnit": "Asia Pasific",
+      "image": "url()",
+      "role": "Junior Associate",
+      "unit": "Hiring",
+      "employeeType": 2,
+      "Isasssigned": 0,
+      "supervisee": []
+
+    },
+
+    {
+      "id": 9,
+      "userName": "ashwinb",
+      "name": "Ashwin Bhat",
+      "password": "nirvana",
+      "businessUnit": "South America",
+      "image": "url()",
+      "role": "Associate",
+      "unit": "Creative",
+      "employeeType": 2,
+      "Isasssigned": 0,
+      "supervisee": []
+    }, {
+      "id": 10,
+      "userName": "psingh",
+      "name": "Pradhumn Singh",
+      "password": "acp_cid",
+      "businessUnit": "Asia Pasific",
+      "image": "url()",
+      "role": "Junior Associate",
+      "unit": "Technology",
+      "employeeType": 2,
+      "Isasssigned": 0,
+      "supervisee": []
+    }
+
+  ]
+}
