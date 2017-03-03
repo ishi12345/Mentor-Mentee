@@ -1,0 +1,401 @@
+@font-face {
+	font-family: 'HelveticaNeueLT Std Lt';
+	src: url('../Fonts/HelveticaNeueLTStd-Lt.otf')                              /*ishani changes now*/
+}
+
+@font-face {
+	font-family: 'HelveticaNeueLT Std UltLt';
+	src: url('../Fonts/HelveticaNeueLTStd-UltLt.otf')                              /*ishani changes now*/
+}
+
+@font-face {
+	font-family: 'HelveticaNeueLT Std Th';
+	src: url('../Fonts/HelveticaNeueLTStd-Th.otf')                              /*ishani changes now*/
+}
+
+@font-face {
+	font-family: 'HelveticaLT Std Roman';
+	src: url('../Fonts/HelveticaLTStd-Roman.otf')                              /*ishani changes now*/
+}
+
+body{
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 100%;
+	font-family: HelveticaNeueLT Std Lt, sans-serif;                           /*ishani changes now*/
+	background-image: url('../images/background.jpg');
+	background-size: cover;
+}
+
+#supervisordelete{
+	display: flex;
+	font-family: HelveticaNeueLT Std Roman,sans-serif;                        /*ishani changes now id name also*/
+}
+
+#main{
+	width: 80%;
+ 	/* margin-left: 350px; */
+ 	
+ 	margin: auto;
+ 	/* height: 700px; */
+}
+
+.fontformat{
+	color: #E6E6E6;
+	font-size: 15pt;
+	font-family: HelveticaNeueLT Std Lt,sans-serif;
+
+}
+#profile{
+	
+	width: 24%;
+	flex-direction: column;
+	background: linear-gradient(rgb(83,83,83), rgb(41,41,41));
+	border-top-left-radius: 2em;
+  
+}
+
+.supervisorlist, .superviseelist{
+	width: 38%;
+	background-color: #333333;
+	flex-direction: column;
+	/*changed==========================*/
+	display: flex;
+	/*changed==========================*/
+}
+
+
+div{
+	display: flex;
+	
+
+}
+
+
+							/* Custom DropDown */
+
+
+.dropbtn {
+    background-color: ;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+#myDropdown{
+	width: 50px;
+	/* float:right; */
+	/* margin-right: 2px */;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    right: 0;
+    /* overflow: auto; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: HelveticaNeueLT Std Lt,sans-serif;
+}
+.dropdown a:hover {background-color: #f1f1f1}
+.show {display:block;}
+
+												/* end */
+
+#headinglabel{
+  font-size: 28px;
+  font-family: HelveticaNeueLT Std UltLt,sans-serif;
+  color: #9D9D9D;
+  line-height: 1.2;
+  box-sizing: border-box;
+  padding: 0 30px;
+}
+#profilepicture{
+
+  width: 100%;
+  height: 250px;
+  
+}
+#Username{
+	
+	color: #B6B6B6;
+	font-family: HelveticaNeueLT Std Th,sans-serif;
+	font-size: 15pt;
+	padding-left: 20px;
+
+}
+
+#contentlabel{
+  font-size: 15px;
+  
+   color: #BCBCBC;
+ 
+   padding-left: 20px;
+}
+#delete{
+	margin-top: 15px;
+	/* position:relative; */
+	/* margin-left: 120px; */                                    /* ishani changes now */
+	padding-right: 10px;                                         /* ishani changes now */
+	height: 20px;
+	/* width: 20px; */
+	right: 0;
+	border: 2px white;
+	border-radius: 2em;
+
+}
+
+.deleteicon{
+	/*display: flex;*/
+	/* position: relative; */
+	/* margin-left: 160px; */
+	width: 10%;
+
+}
+#sapientlogo{
+	width: 13%;
+	border-top-left-radius: 2em;
+}
+
+
+#search{
+	/* height: 70px; */
+	flex-grow: 1;
+	border: none;
+	font-size: 28pt;
+	font-family: 'HelveticaNeueLT Std Th', sans-serif;                                /* ishani changes now */
+	color: #333333;
+	
+}
+.usericon{
+	height: 51px;
+	border: solid #FFFFFF;
+	border-radius: 25px;
+	margin :7px 7px;
+}
+
+.supervisor .usericon{
+	position: relative;
+	height: 40px;
+	border: none;
+	margin :4px 4px;		/*positioning the image*/
+}
+
+.supervisor>p{
+	display: inline-block;
+	margin: 0;
+	padding: 14px 0 0 0;
+}
+
+#logoutdropdown{
+	height: 14px;
+	margin-top: 10px;
+	width: 23px;
+	background: url('../images/dropdown.png');
+	/* background-image:url('../images/dropdown.png'); */
+	background-size: contain;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+	display: inline-block;
+	margin-right: 20px;
+	background-repeat: no-repeat;
+	border: none;
+	
+}
+
+
+
+
+.top{
+	margin: auto;
+	width: 80%;
+	justify-content: space-between;
+	display: flex;
+	height: 70px;
+	/* margin-left: 350px; */
+	
+}
+#addsupervisor{
+	
+	height: 68px;
+	width: 50%;
+	background-color: #D12728;
+	padding: 0;
+	border: none;
+	outline: 0;
+	border-radius: 2em; 
+	color: #FDF4F4;
+	font-size: 18pt;
+	font-family: 'HelveticaNeueLTStd-Lt'; 
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.addsupervisor:hover{
+	background-color: #7f0000;
+}
+.manage{
+	display: block;
+
+}
+#logoutcontainer{
+	flex-grow: 2;
+	display: block;
+	text-align: right;
+	/* height: 70px; */
+	background-color: #E3E3E3;
+	border-top-right-radius: 2em;
+}
+#logoutusername{
+	display: inline-block;
+	position: absolute;
+	bottom: 30px;
+	font-size: 12pt;	/* specification */
+	font-family: HelveticaNeueLT Std Lt,sans-serif;
+	color: #333333;
+	/* padding-top: 10px; */
+}
+#logoutusername,#logoutdropdown{
+	position: relative;
+	bottom: 30px;
+}
+#contentlabel span{
+
+	font-size: 15px;
+  margin-top: 50px;
+   
+   color: #ffffff;
+   font-family: HelveticaNeueLT Std Th,sans-serif;/*specification*/
+}
+
+p{
+	word-wrap: break-word;
+}
+
+.supervisorlist p img, #supervisor img, .superviseelist p img{
+	height: 51px;
+	border: none;
+	border-radius: 25px;
+	display: inline-block;
+	position: relative;
+
+
+	
+}
+
+#addsupervisorbutton, .supervisorlistdisplay{
+	
+	display: flex;
+	flex-direction: column;
+
+}
+
+.supervisorlistdisplay{
+	/*!!*/
+	/*height: 70%;	 fix the height relative to its parent*/
+	/*!!*/
+	/*overflow-y: auto;  cannot use overflow-y because excess data is not 
+	displayed using scrollbar instead it is displayed using paging*/
+	/*!!max-height: 70%;*/
+	box-sizing: border-box;
+	width: 100%;				/*to avoid x overflow*/
+	padding: 0 30px 30px 30px;	
+	/*!!*/
+	min-height: 600px;
+	/*!!*/
+	/*!!*/
+	display: flex;
+	flex-direction: column;
+	/*!!*/
+}
+
+.supervisor{
+	padding: 8px;
+	box-sizing: border-box;
+	margin: 4px;
+	width: 100%;				/*to avoid x overflow*/
+	/*!!*/
+	height: 75px;
+	/*!!*/
+}
+.empidformat{
+	color: #797979;
+}
+
+
+/*.supervisor:hover{					
+	width: 100%;
+		
+	border-radius: 30px;
+	margin: 4px;				
+	height: 68px;
+	
+	background-color: #DADADA;
+	
+
+}*/
+
+
+/* .supervisor .fontformat:hover{
+	color: #000000;
+}
+ */
+.divide{						/*the line that divides each component displayed in list*/
+	width: 100%;
+	border: 1px solid #494949;
+}
+#superviseesection{
+	background-color: #414141;
+}
+#searchicon{
+	height: 70px;
+	width: 6%;
+	border: none;
+	background-color: #FFFFFF;
+
+}
+/*!!CHANGED=======================*/
+
+
+.supervisorclicked{					/*when .supervisor is clicked*/
+	width: 100%;
+	background: linear-gradient(to right, #C8C8C8 , #DADADA);;	/*background color when active*/
+	border-radius: 30px;
+	margin: 4px;				/*spacing between each div in supervisor list*/
+	/*!!*/
+	height: 75px;
+	/*!!*/
+	color: #000000;
+}
+
+.supervisorclicked p,.supervisorclicked span{
+	color: inherit;
+}
+
+#search::-ms-clear{
+	display: none;
+}
+
+/*!!CHANGED=======================*/
+/* .supervisorlistdisplay div:hover{
+	color: red;
+
+} */
+
