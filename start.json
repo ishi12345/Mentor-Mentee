@@ -1,8 +1,0 @@
-{"employee": [
-{"empId": 1,"empPasswd": 11111111, "flag":2},
-{"empId": 2,"empPasswd": 22222222, "flag":2},
-{"empId": 3,"empPasswd": 33333333, "flag":1},
-{"empId": 4,"empPasswd": 44444444, "flag":1},
-{"empId": 5,"empPasswd": 55555555, "flag":0},
-{"empId": 6,"empPasswd": 66666666, "flag":0},
-]}
